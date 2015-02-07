@@ -19,7 +19,6 @@ module RandomApi
         connection.use Faraday::Request::UrlEncoded
         connection.use Faraday::Response::Logger
         connection.use FaradayMiddleware::Mashify unless raw
-        connection.ssl[:version] = :SSLv3
         unless raw
           case format.to_s.downcase
           when 'json' then connection.use Faraday::Response::ParseJson
