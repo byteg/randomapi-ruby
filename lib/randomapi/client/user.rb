@@ -3,8 +3,8 @@ module RandomApi
 
     module User
 
-      def random_user(count = 1)
-        get("")
+      def random_user(options = {})
+        get("", options)
       end
 
     end
