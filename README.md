@@ -4,7 +4,7 @@ API to access data from https://randomapi.com
 #Installation
 Bundler:
 ------------
-	gem install randomapi-ruby
+	gem install randomapi
 	
 #Initialization
 If you use only 1 API key & API id, it makes sense to pass them in the initializer:

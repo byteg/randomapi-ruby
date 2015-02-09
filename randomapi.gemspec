@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["denis@f7.ru"]
   spec.summary       = %q{Gets data from randomapi.com}
   spec.description   = %q{Gets data from randomapi.com}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/byteg/randomapi-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
